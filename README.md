@@ -12,7 +12,7 @@ It:
 
 ---
 
-## 📁 Files
+## Files
 
 | File | Description |
 |------|-------------|
@@ -23,7 +23,7 @@ It:
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 You need Python 3 installed and the following packages:
 
@@ -33,7 +33,7 @@ pip install pandas requests
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Make sure you're in the folder with the script and CSV file
 2. Run the script:
@@ -48,19 +48,19 @@ Logs are also saved to `plugin_log.txt`.
 
 ---
 
-## 🧪 Sample Output (console)
+##  Sample Output (console)
 
 ```
-✅ Loaded CSV file.
-✅ Cleaned data. 3 valid samples found.
-📤 Sent sample S001 successfully.
-📤 Sent sample S004 successfully.
-📤 Sent sample S005 successfully.
+ Loaded CSV file.
+ Cleaned data. 3 valid samples found.
+ Sent sample S001 successfully.
+ Sent sample S004 successfully.
+ Sent sample S005 successfully.
 ```
 
 ---
 
-## 📡 Mock API
+##  Mock API
 
 The script uses this mock API for demo purposes:
 > https://jsonplaceholder.typicode.com/posts
@@ -69,7 +69,7 @@ No real data is stored — it's just for testing.
 
 ---
 
-## 🛠️ Customization Ideas
+##  Customization Ideas
 
 You can expand the script to:
 - Read from Excel or instrument-generated files
@@ -78,14 +78,3 @@ You can expand the script to:
 - Trigger the script on file drop (automation)
 
 ---
-
-## 💬 Why This Exists
-
-This small project simulates what an Application Engineer working with Agilent SLIMS might do:
-- Connect lab instruments
-- Parse scientific data
-- Automate data entry
-- Work with APIs
-- Troubleshoot integration issues
-
-Great for technical interviews or learning lab automation with Python.
